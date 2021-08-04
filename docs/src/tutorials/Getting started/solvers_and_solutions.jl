@@ -122,7 +122,7 @@ objective_value(model_manual)
 # Some solvers are able to handle the problem data directly. This is common for
 # LP/MIP solver but not very common for open-source conic solvers. In this case
 # we do not set a optimizer, we set a backend which is more generic and is able
-# to hold data and not only solving a model.
+# to hold data and solve a model.
 
 model_direct = direct_model(GLPK.Optimizer())
 @variable(model_direct, 0 <= x <= 1)
