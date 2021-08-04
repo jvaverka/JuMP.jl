@@ -26,7 +26,7 @@
 # ## What is JuMP?
 
 # JuMP ("Julia for Mathematical Programming") is an open-source modeling
-# language that is embedded in Julia. It allows users to users formulate various
+# language that is embedded in Julia. It allows users to formulate various
 # classes of optimization problems (linear, mixed-integer, quadratic, conic
 # quadratic, semidefinite, and nonlinear) with easy-to-read code. These problems
 # can then be solved using state-of-the-art open-source and commercial solvers.
